@@ -1,0 +1,26 @@
+.delt{
+    text-align: center;
+    cursor: pointer;
+   
+}
+.box{
+    padding: 20px;
+    background-color: aqua;
+    width: 120px;
+    height: 200px;
+}
+.box2{
+    background-color: brown;
+}
+.box3{
+    background-color: yellow;
+    /* height: 500px; */
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    border: 2px solid gray;
+    height: 300px;
+}
